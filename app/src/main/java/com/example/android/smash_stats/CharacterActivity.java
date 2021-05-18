@@ -13,8 +13,10 @@ public class CharacterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_character);
 
+        String[] names = getResources().getStringArray(R.array.characters);
+
         TextView textView = (TextView) findViewById(R.id.textviewww);
 
-        textView.setText(String.valueOf(MainActivity.charSelected));
+        textView.setText(names[MainActivity.charSelected]);
     }
 }

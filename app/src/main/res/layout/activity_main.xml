@@ -10,7 +10,7 @@
         android:id="@+id/header_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/smashstats"/>
+        android:src="@drawable/smashstats" />
 
     <GridView
         android:id="@+id/character_grid"
