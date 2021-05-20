@@ -14,9 +14,12 @@ public class CharacterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_character);
 
         String[] names = getResources().getStringArray(R.array.characters);
+        String[] numbers = getResources().getStringArray(R.array.numbers);
 
-        TextView textView = (TextView) findViewById(R.id.textviewww);
+        TextView characterNameView = (TextView) findViewById(R.id.character_name);
+        TextView numberView = (TextView) findViewById(R.id.character_number);
 
-        textView.setText(names[MainActivity.charSelected]);
+        characterNameView.setText(names[MainActivity.charSelected]);
+        numberView.setText(numbers[MainActivity.charSelected]);
     }
 }
