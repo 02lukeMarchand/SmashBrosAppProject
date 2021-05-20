@@ -15,11 +15,14 @@ public class CharacterActivity extends AppCompatActivity {
 
         String[] names = getResources().getStringArray(R.array.characters);
         String[] numbers = getResources().getStringArray(R.array.numbers);
+        String[] sizes = getResources().getStringArray(R.array.size_stats);
 
         TextView characterNameView = (TextView) findViewById(R.id.character_name);
         TextView numberView = (TextView) findViewById(R.id.character_number);
+        TextView sizeView = (TextView) findViewById(R.id.character_size);
 
         characterNameView.setText(names[MainActivity.charSelected]);
         numberView.setText(numbers[MainActivity.charSelected]);
+        sizeView.setText(sizes[MainActivity.charSelected]);
     }
 }
