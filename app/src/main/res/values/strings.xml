@@ -215,7 +215,7 @@
         <item>Size: Large</item>
         <item>Size: Small</item>
         <item>Size: Medium</item>
-        <item>Size: Medium</item>
+        <item>Size: Large</item>
         <item>Size: Small</item>
         <item>Size: Medium</item>
         <item>Size: Small</item>
@@ -253,5 +253,90 @@
         <item>Size: Medium</item>
         <item>Size: Large</item>
         <item>Size: Medium</item>
+    </string-array>
+
+    <string-array name="weight_stats">
+        <item>Midweight (98)</item>
+        <item>Heavyweight (127)</item>
+        <item>Midweight (104)</item>
+        <item>Heavyweight (108)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (104)</item>
+        <item>Lightweight (79)</item>
+        <item>Lightweight (77)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (97)</item>
+        <item>Midweight (94)</item>
+        <item>Midweight (104)</item>
+        <item>Lightweight (68)</item>
+        <item>Midweight (89)</item>
+        <item>Midweight (89)</item>
+        <item>Heavyweight (135)</item>
+        <item>Midweight (92)</item>
+        <item>Lightweight (78)</item>
+        <item>Midweight (85)</item>
+        <item>Midweight (98)</item>
+        <item>Lightweight (62)</item>
+        <item>Lightweight (82)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (88)</item>
+        <item>Heavyweight (118)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (95)</item>
+        <item>Lightweight (75)</item>
+        <item>Lightweight (80)</item>
+        <item>Midweight (96)</item>
+        <item>Midweight (96)</item>
+        <item>Lightweight (80)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (106)</item>
+        <item>Heavyweight (107)</item>
+        <item>Light/Mid/Heavy (75/96/116)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (94)</item>
+        <item>Midweight (86)</item>
+        <item>Heavyweight (127)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (92)</item>
+        <item>Heavyweight (106)</item>
+        <item>Midweight (91)</item>
+        <item>Midweight (92)</item>
+        <item>Midweight (92)</item>
+        <item>Midweight (102)</item>
+        <item>Midweight (96)</item>
+        <item>Lightweight (82)</item>
+        <item>Midweight (87)</item>
+        <item>Midweight (88)</item>
+        <item>Midweight (94/100/104)</item>
+        <item>Midweight (91)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (97)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (86)</item>
+        <item>Midweight (103)</item>
+        <item>Midweight (103)</item>
+        <item>Midweight (100)</item>
+        <item>Midweight (98)</item>
+        <item>Lightweight (80)</item>
+        <item>Midweight (94)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (133)</item>
+        <item>Midweight (88)</item>
+        <item>HeavyWeight (116)</item>
+        <item>Heavyweight (112)</item>
+        <item>Midweight (93)</item>
+        <item>Midweight (101)</item>
+        <item>Heavyweight (106)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (97)</item>
+        <item>Midweight (104)</item>
+        <item>Midweight (92)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (98/92)</item>
     </string-array>
 </resources>
