@@ -21,18 +21,20 @@ public class CharacterActivity extends AppCompatActivity {
         String[] sizes = getResources().getStringArray(R.array.size_stats);
         String[] weights = getResources().getStringArray(R.array.weight_stats);
         String[] speeds = getResources().getStringArray(R.array.speed_stats);
+        String[] powers = getResources().getStringArray(R.array.power);
 
         TextView characterNameView = (TextView) findViewById(R.id.character_name);
         TextView numberView = (TextView) findViewById(R.id.character_number);
         TextView sizeView = (TextView) findViewById(R.id.character_size);
         TextView weightView = (TextView) findViewById(R.id.character_weight);
         TextView speedView = (TextView) findViewById(R.id.character_speed);
+        TextView powerView = (TextView) findViewById(R.id.character_power);
 
         characterNameView.setText(names[MainActivity.charSelected]);
         numberView.setText(numbers[MainActivity.charSelected]);
         sizeView.setText(sizes[MainActivity.charSelected]);
         weightView.setText(weights[MainActivity.charSelected]);
-        speedView.setText(speeds[MainActivity.charSelected]);
-
+        speedView.setText("Speed: " + speeds[MainActivity.charSelected]);
+        powerView.setText("Power: " + powers[MainActivity.charSelected]);
     }
 }

@@ -424,4 +424,89 @@
         <item>Average</item>
         <item>Slow/Fast</item>
     </string-array>
+
+    <string-array name="power">
+        <item>Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>High Average (Low Average if AI dies)</item>
+        <item>Low Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Low Average</item>
+        <item>Low Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Low/High/Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Low Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong (Weak in air)</item>
+        <item>Low Average</item>
+        <item>High/Average/Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average (Strong with Monado Buster and Smash)</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong</item>
+        <item>Low Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>Average (Strong with Arsene)</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong/Average</item>
+    </string-array>
 </resources>
