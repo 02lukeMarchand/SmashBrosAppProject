@@ -13,15 +13,23 @@
         <TextView
             android:id="@+id/character_name"
             style="@style/text_style"
-            android:text="name" />
+            android:text="name"
+            android:paddingBottom="16dp"/>
 
         <TextView
             android:id="@+id/character_number"
             style="@style/text_style"
             android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
             android:text="number" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/character_image"
+        android:layout_width="355sp"
+        android:layout_height="355sp"
+        android:src="@drawable/palutena" />
 
     <TextView
         android:id="@+id/character_size"
