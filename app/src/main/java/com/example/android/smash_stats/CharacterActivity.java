@@ -28,6 +28,7 @@ public class CharacterActivity extends AppCompatActivity {
         String[] weights = getResources().getStringArray(R.array.weight_stats);
         String[] speeds = getResources().getStringArray(R.array.speed_stats);
         String[] powers = getResources().getStringArray(R.array.power);
+        String[] tips = getResources().getStringArray(R.array.tips);
         ArrayList<Integer> images = new ArrayList<Integer>();
 
         images.add(R.drawable.mario);
@@ -119,6 +120,7 @@ public class CharacterActivity extends AppCompatActivity {
         TextView weightView = (TextView) findViewById(R.id.character_weight);
         TextView speedView = (TextView) findViewById(R.id.character_speed);
         TextView powerView = (TextView) findViewById(R.id.character_power);
+        TextView tipView = (TextView) findViewById(R.id.character_tips);
         ImageView characterImage = (ImageView) findViewById(R.id.character_image);
 
         characterNameView.setText(names[MainActivity.charSelected]);
@@ -127,6 +129,7 @@ public class CharacterActivity extends AppCompatActivity {
         weightView.setText(weights[MainActivity.charSelected]);
         speedView.setText("Speed: " + speeds[MainActivity.charSelected]);
         powerView.setText("Power: " + powers[MainActivity.charSelected]);
+        tipView.setText(tips[MainActivity.charSelected]);
         characterImage.setImageResource(images.get(MainActivity.charSelected));
     }
 }

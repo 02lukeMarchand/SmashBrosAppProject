@@ -594,4 +594,89 @@
         <item>@drawable/sephiroth</item>
         <item>@drawable/pyramythra</item>
     </drawable>
+
+    <string-array name="tips">
+        <item>Tip: Use "up-tilt" and "up-air" to juggle your opponent in the air.</item>
+        <item>Tip: Grab your opponent and simply move forward to carry them off stage. </item>
+        <item>Tip: Link\'s remote bomb can stop your opponent from grabbing the ledge.</item>
+        <item>Tip: Try to keep your charge shot at full charge so you can unleash it when you need it.</item>
+        <item>Echo: Dark Samus has more floaty jumps than Samus.</item>
+        <item>Tip: Yoshi\'s double jump is his main recovery tool, don\'t go too far off stage without it.</item>
+        <item>Tip: Kirby can use anyone\'s neutral special, so learning match-ups can come in handy.</item>
+        <item>Tip: Fox falls faster than most other characters, so watch your aerial height.</item>
+        <item>Tip: "Up–throw" into "Down–special" works on opponents around 70-85 percent, and it can KO.</item>
+        <item>Tip: Luigi\'s "Side-Special" has a small chance to misfire, which increases the range and power.</item>
+        <item>Tip: Use PK Thunder on yourself to launch yourself back to stage or deal big damage.</item>
+        <item>Tip: Captain Falcon has tons of combo potential. Training mode is useful for testing possible combo ideas.</item>
+        <item>Tip: "Down-Special" might seem useless at first, but using it directly on top of your opponent can KO them or deal big damage.</item>
+        <item>Tip: Peach\'s turnips have different properties depending on their face.</item>
+        <item>Echo: Daisy\'s hitboxes are wider, but shorter than Peach\'s.</item>
+        <item>Tip: "Side-Special" allows you to grab opponents and carry them off the stage, but be careful because Bowser will die first.</item>
+        <item>Tip: Try to keep your partner Ice Climber alive at all times, you are significantly weaker without her.</item>
+        <item>Tip: Sheik can sometime struggle to KO, but, being a fast character, she can catch opponents with her powerful "up-smash" for KOs.</item>
+        <item>Tip: Zelda\'s aerials have sweet and sour spots, so try to space yourself to hit the sweet spots.</item>
+        <item>Tip: Dr. Mario can use his "Down-Special" to help recover, remember to spam the special button when you use it to recover.</item>
+        <item>Tip: Pichu hurts itself when using electric attacks, watch your percentage.</item>
+        <item>Tip: Falco\'s laser stuns opponents, use it to trip up their approach.</item>
+        <item>Tip: Marth\'s sword is more powerful at the tip, so space yourself to always hit with the tip.</item>
+        <item>Echo: Lucina has normalized damage across her sword as opposed to Marth\'s tipper.</item>
+        <item>Tip: Throwing your boomerang and following with flame bow can stop approaches.</item>
+        <item>Tip: Ganondorf has very powerful attacks, but he is very slow. Watch for predictable habits from opponents to punish them without a need for speed.</item>
+        <item>Tip: Mewtwo\'s tail has a hit box, try not to let your opponent catch a hit on it.</item>
+        <item>Tip: Roy\'s sword is more powerful near the hilt of the blade, so try not to hit with the tip.</item>
+        <item>Echo: Chrom has normalized damage across the sword as opposed to Roy\'s sword being more powerful closer to the hilt.</item>
+        <item>Tip: After shielding an attack, if your opponent is right next to you, use "up-special" into "down-air" for a quick punish.</item>
+        <item>Tip: Meta knight has an incredible amount of jumps and multiple recovery moves, remember to mix up your recovery from time to time.</item>
+        <item>Tip: Pit\'s arrow can be controlled with the joystick.</item>
+        <item>Echo: Dark Pit has more power, but is less controllable than Pit.</item>
+        <item>Tip: "Down-special" provides invincibility and can bury/spike. Use this for recovery and reversing your opponent to disadvantage.</item>
+        <item>Tip: "Down-special" is naturally being charged, and you can tell its full when Wario is slightly flashing yellow. Releasing this does tons of damage.</item>
+        <item>Tip: Snake can use his "Down-special" right before his recovery move ends to blow himself up and get another recovery move. Just remember to not deal too much damage to yourself.</item>
+        <item>Tip: Use "neutral-air" when landing on opponents to start combos and get KOs with "up-air" or either side aerial.</item>
+        <item>Tip: Knowing how to perfectly play each pokemon can be tough, so try to have one that you will always be comfortable using.</item>
+        <item>Tip: Try to always have a banana peel in your hand or on the field. Tripping opponents with them can lead to easy KOs and combos.</item>
+        <item>Tip: Practice drawing a circle with the joystick to help improve PK Thunder recovery, or you could use grab in the air to catch the ledge.</item>
+        <item>Tip: Sonic is a dumb character you should never play Sonic because he is poorly represented.</item>
+        <item>Tip: King Dedede\'s gordos can stick to the ledge and invalidate many recoveries.</item>
+        <item>Tip: Olimar relies on his pikmin for the majority of his attacks. Always try to keep all 3 out on the field.</item>
+        <item>Tip: Lucario gains more power the higher percentage he has. This also takes effect when he has a significantly lower stock count than his opponent.</item>
+        <item>Tip: R.O.B. has a fuel gauge on his side for his recovery, so make sure not to get caught off stage while it is low.</item>
+        <item>Tip: Toon Link differs from the other Links with slower projectiles and less multi hit moves.</item>
+        <item>Tip: Wolf\'s "down-smash" can catch opponents just about to grab ledge and KO.</item>
+        <item>Tip: Villager drop his bowling ball below the stage to KO opponents recovering low.</item>
+        <item>Tip: Mega Man can move while using his pellet gun to move in and deal quick damage.</item>
+        <item>Tip: Spamming the special button while using "up-special" can make the move go higher.</item>
+        <item>Tip: Launch Luma away from you to catch opponents off guard with a smash attack from afar.</item>
+        <item>Tip: Little Mac\'s smash attacks have "armor", which causes him to take damage but no knockback, so challenging him while using a smash attack is unwise.</item>
+        <item>Tip: When using Greninja\'s counter, you can change which direction he attacks from, and using it from the top will cause him to spike his opponent down.</item>
+        <item>Tip: Mii fighters are characters you create! Create a moveset you\'re comfortable using with the brawler, swordfighter, or gunner.</item>
+        <item>Tip: Palutena has a sheild that provides some immunity during her dash attack. This is useful for challenging landing aerials.</item>
+        <item>Tip: Each fruit and item in Pac-man\'s "neutral-special" have different properties. Learning how to use each one can prove useful for new combos.</item>
+        <item>Tip: Robin\'s special attacks use spell tomes that need to be recharged after being used up. Don\'t get caught off guard when one runs out.</item>
+        <item>Tip: Shulk\'s monado arts provide instant buffs for him. Use them when you need more damage(buster), knockback(smash), defense(shield), movement(speed), or jump height(jump).</item>
+        <item>Tip: After using "up-special", Bowser Jr. can still attack with his hammer.</item>
+        <item>Tip: Duck Hunt\'s "down-special" spawns a character that fires toward the opponent. The character that spawns is random and each character has different properties.</item>
+        <item>Tip: Ryu always faces his opponent and has some other properties from Street Fighter like command inputs.</item>
+        <item>Echo: Ken\'s moves are multi hit as opposed to Ryu\'s strong single hits.</item>
+        <item>Tip: Cloud\'s limit meter makes his special attacks very powerful. Try to charge this up when you get a chance.</item>
+        <item>Tip: Corrin\'s "side-smash" has a hitbox when charging it up. Use this to deal a bit of extra damage before unleashing the big hit.</item>
+        <item>Tip: Bayonetta\'s "down-special" slows opponents down when they attack it and creates a perfect opportunity to start a combo.</item>
+        <item>Tip: Covering your opponent in ink causes them to take more damage from your attacks.</item>
+        <item>Tip: Ridley\'s "down-special" has a sweet spot that deals a ton of damage. Try to space yourself so you can hit your opponent with it, otherwise, it won\'t do much damage.</item>
+        <item>Tip: Simon can use his "forward-air" to hit the ledge and pull himself to the ledge with his whip.</item>
+        <item>Echo: Richter\'s "down-special" has aura properties opposed to Simon\'s having fire.</item>
+        <item>Tip: King K. Rool\'s belly has armor that can take hits while not stunning him and reducing damage taken, but this only activates when performing a move and it can only take so much damage before breaking.</item>
+        <item>Tip: Isabelle can throw opponents in any direction with her fishing rod and grab the ledge from far away with it.</item>
+        <item>Tip: Getting hit with "down-special" active makes Incineroar\'s next hit extra powerful. This can stack multiple hits up for even more damage.</item>
+        <item>Tip: If someone jumps on Piranha Plant\'s head while crouching, they will get bitten by Piranha Plant.</item>
+        <item>Tip: Joker\'s "down-special" charges his meter when he gets hit while it\'s active. When the meter his full, Joker summons Arsene, his persona, which strengthens all of his attacks.</item>
+        <item>Tip: Hero\'s smash attacks have a small chance to deal a critical hit and deal massive damage to opponents</item>
+        <item>Tip: Banjo and Kazooie can only use their "side-special" 5 times because it makes them invincible and deals a large amount of damage. The usage count resets every Banjo and Kazooie are KOd.</item>
+        <item>Tip: Terry has three extra special attacks. He is the only character with a "back-special" and when he gets to a critical point, he gets special input moves that are very powerful.</item>
+        <item>Tip: Byleth can cancel their "neutral-special" with the shield button, but only during the weak beginning part of the attack.</item>
+        <item>Tip: Min Min can use smash attacks with her special arm, each arm with a different function.</item>
+        <item>Tip: Steve and Alex can mine any part of the stage. Different materials use different tools and yield different materials.</item>
+        <item>Tip: Sephiroth activates his on-winged form when he is in trouble, which increases his attack power and gives him armor on his smash attacks, similar to Little Mac</item>
+        <item>Tip: Pyra and Mythra are one character and you can swap between them with "down-special." Pyra is slow but powerful, and Mythra is fast but less powerful.</item>
+    </string-array>
 </resources>
