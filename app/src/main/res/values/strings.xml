@@ -1,3 +1,682 @@
 <resources>
     <string name="app_name">Smash_Stats</string>
+    <string-array name="characters">
+        <item>Mario</item>
+        <item>Donkey Kong</item>
+        <item>Link</item>
+        <item>Samus</item>
+        <item>Dark Samus</item>
+        <item>Yoshi</item>
+        <item>Kirby</item>
+        <item>Fox</item>
+        <item>Pikachu</item>
+        <item>Luigi</item>
+        <item>Ness</item>
+        <item>Captain Falcon</item>
+        <item>Jigglypuff</item>
+        <item>Peach</item>
+        <item>Daisy</item>
+        <item>Bowser</item>
+        <item>Ice Climbers</item>
+        <item>Sheik</item>
+        <item>Zelda</item>
+        <item>Dr. Mairo</item>
+        <item>Pichu</item>
+        <item>Falco</item>
+        <item>Marth</item>
+        <item>Lucina</item>
+        <item>Young Link</item>
+        <item>Ganondorf</item>
+        <item>Mewtwo</item>
+        <item>Roy</item>
+        <item>Chrom</item>
+        <item>Mr. Game And Watch</item>
+        <item>Meta Knight</item>
+        <item>Pit</item>
+        <item>Dark Pit</item>
+        <item>Zero Suit Samus</item>
+        <item>Wario</item>
+        <item>Snake</item>
+        <item>Ike</item>
+        <item>Pokemon Trainer</item>
+        <item>Diddy Kong</item>
+        <item>Lucas</item>
+        <item>Sonic</item>
+        <item>King Dedede</item>
+        <item>Olimar</item>
+        <item>Lucario</item>
+        <item>R.O.B.</item>
+        <item>Toon Link</item>
+        <item>Wolf</item>
+        <item>Villager</item>
+        <item>Mega Man</item>
+        <item>Wii Fit Trainer</item>
+        <item>Rosalina And Luma</item>
+        <item>Little Mac</item>
+        <item>Greninja</item>
+        <item>Mii Fighters</item>
+        <item>Palutena</item>
+        <item>Pac-Man</item>
+        <item>Robin</item>
+        <item>Shulk</item>
+        <item>Bowser Jr.</item>
+        <item>Duck Hunt</item>
+        <item>Ryu</item>
+        <item>Ken</item>
+        <item>Cloud</item>
+        <item>Corrin</item>
+        <item>Bayonetta</item>
+        <item>Inkling</item>
+        <item>Ridley</item>
+        <item>Simon</item>
+        <item>Richter</item>
+        <item>King K. Rool</item>
+        <item>Isabelle</item>
+        <item>Incineroar</item>
+        <item>Piranha Plant</item>
+        <item>Joker</item>
+        <item>Hero</item>
+        <item>Banjo And Kazooie</item>
+        <item>Terry</item>
+        <item>Byleth</item>
+        <item>Min Min</item>
+        <item>Steve/Alex</item>
+        <item>Sephiroth</item>
+        <item>Pyra/Mythra</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>04ε</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>13ε</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>21ε</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>25ε</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>28ε</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33–35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51–53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>60ε</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>66ε</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79/80</item>
+    </string-array>
+
+    <string-array name="size_stats">
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Large</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: All</item>
+        <item>Size: Small</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Small</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Medium</item>
+        <item>Size: Large</item>
+        <item>Size: Medium</item>
+    </string-array>
+
+    <string-array name="weight_stats">
+        <item>Midweight (98)</item>
+        <item>Heavyweight (127)</item>
+        <item>Midweight (104)</item>
+        <item>Heavyweight (108)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (104)</item>
+        <item>Lightweight (79)</item>
+        <item>Lightweight (77)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (97)</item>
+        <item>Midweight (94)</item>
+        <item>Midweight (104)</item>
+        <item>Lightweight (68)</item>
+        <item>Midweight (89)</item>
+        <item>Midweight (89)</item>
+        <item>Heavyweight (135)</item>
+        <item>Midweight (92)</item>
+        <item>Lightweight (78)</item>
+        <item>Midweight (85)</item>
+        <item>Midweight (98)</item>
+        <item>Lightweight (62)</item>
+        <item>Lightweight (82)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (88)</item>
+        <item>Heavyweight (118)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (95)</item>
+        <item>Lightweight (75)</item>
+        <item>Lightweight (80)</item>
+        <item>Midweight (96)</item>
+        <item>Midweight (96)</item>
+        <item>Lightweight (80)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (106)</item>
+        <item>Heavyweight (107)</item>
+        <item>Light/Mid/Heavy (75/96/116)</item>
+        <item>Midweight (90)</item>
+        <item>Midweight (94)</item>
+        <item>Midweight (86)</item>
+        <item>Heavyweight (127)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (92)</item>
+        <item>Heavyweight (106)</item>
+        <item>Midweight (91)</item>
+        <item>Midweight (92)</item>
+        <item>Midweight (92)</item>
+        <item>Midweight (102)</item>
+        <item>Midweight (96)</item>
+        <item>Lightweight (82)</item>
+        <item>Midweight (87)</item>
+        <item>Midweight (88)</item>
+        <item>Midweight (94/100/104)</item>
+        <item>Midweight (91)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (95)</item>
+        <item>Midweight (97) (Monado Shield increases weight)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (86)</item>
+        <item>Midweight (103)</item>
+        <item>Midweight (103)</item>
+        <item>Midweight (100)</item>
+        <item>Midweight (98)</item>
+        <item>Lightweight (80)</item>
+        <item>Midweight (94)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (107)</item>
+        <item>Heavyweight (133)</item>
+        <item>Midweight (88)</item>
+        <item>HeavyWeight (116)</item>
+        <item>Heavyweight (112)</item>
+        <item>Midweight (93)</item>
+        <item>Midweight (101)</item>
+        <item>Heavyweight (106)</item>
+        <item>Heavyweight (108)</item>
+        <item>Midweight (97)</item>
+        <item>Midweight (104)</item>
+        <item>Midweight (92)</item>
+        <item>Lightweight (79)</item>
+        <item>Midweight (98/92)</item>
+    </string-array>
+
+    <string-array name="speed_stats">
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Slow</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Average/Average/Fast</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Fast</item>
+        <item>Average/Average/Slow</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Average (Fast when Monado Speed active)</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Slow</item>
+        <item>Slow</item>
+        <item>Slow</item>
+        <item>Slow</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Fast</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Slow</item>
+        <item>Average</item>
+        <item>Slow/Fast</item>
+    </string-array>
+
+    <string-array name="power">
+        <item>Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>High Average (Low Average if AI dies)</item>
+        <item>Low Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Low Average</item>
+        <item>Low Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Low/High/Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Low Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong (Weak in air)</item>
+        <item>Low Average</item>
+        <item>High/Average/Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Average (Strong with Monado Buster and Smash)</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>Strong</item>
+        <item>Low Average</item>
+        <item>Strong</item>
+        <item>High Average</item>
+        <item>Average (Strong with Arsene)</item>
+        <item>High Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong</item>
+        <item>Average</item>
+        <item>Average</item>
+        <item>High Average</item>
+        <item>Strong/Average</item>
+    </string-array>
+
+    <drawable name="images">
+        <item>@drawable/mario</item>
+        <item>@drawable/donkeykong</item>
+        <item>@drawable/link</item>
+        <item>@drawable/samus</item>
+        <item>@drawable/darksamus</item>
+        <item>@drawable/yoshi</item>
+        <item>@drawable/kirby</item>
+        <item>@drawable/fox</item>
+        <item>@drawable/pikachu</item>
+        <item>@drawable/luigi</item>
+        <item>@drawable/ness</item>
+        <item>@drawable/captainfalcon</item>
+        <item>@drawable/jigglypuff</item>
+        <item>@drawable/peach</item>
+        <item>@drawable/daisy</item>
+        <item>@drawable/bowser</item>
+        <item>@drawable/iceclimbers</item>
+        <item>@drawable/sheik</item>
+        <item>@drawable/zelda</item>
+        <item>@drawable/drmario</item>
+        <item>@drawable/pichu</item>
+        <item>@drawable/falco</item>
+        <item>@drawable/marth</item>
+        <item>@drawable/lucina</item>
+        <item>@drawable/younglink</item>
+        <item>@drawable/ganondorf</item>
+        <item>@drawable/mewtwo</item>
+        <item>@drawable/roy</item>
+        <item>@drawable/chrom</item>
+        <item>@drawable/mrgameandwatch</item>
+        <item>@drawable/metaknight</item>
+        <item>@drawable/pit</item>
+        <item>@drawable/darkpit</item>
+        <item>@drawable/zerosuitsamus</item>
+        <item>@drawable/wario</item>
+        <item>@drawable/snake</item>
+        <item>@drawable/ike</item>
+        <item>@drawable/pokemontrainer</item>
+        <item>@drawable/diddykong</item>
+        <item>@drawable/lucas</item>
+        <item>@drawable/sonic</item>
+        <item>@drawable/kingdedede</item>
+        <item>@drawable/olimar</item>
+        <item>@drawable/lucario</item>
+        <item>@drawable/rob</item>
+        <item>@drawable/toonlink</item>
+        <item>@drawable/wolf</item>
+        <item>@drawable/villager</item>
+        <item>@drawable/megaman</item>
+        <item>@drawable/wiifittrainer</item>
+        <item>@drawable/rosalinaluma</item>
+        <item>@drawable/littlemac</item>
+        <item>@drawable/greninja</item>
+        <item>@drawable/miifighters</item>
+        <item>@drawable/palutena</item>
+        <item>@drawable/pacman</item>
+        <item>@drawable/robin</item>
+        <item>@drawable/shulk</item>
+        <item>@drawable/bowserjr</item>
+        <item>@drawable/duckhunt</item>
+        <item>@drawable/ryu</item>
+        <item>@drawable/ken</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/corrin</item>
+        <item>@drawable/bayonetta</item>
+        <item>@drawable/inkling</item>
+        <item>@drawable/ridley</item>
+        <item>@drawable/simon</item>
+        <item>@drawable/richter</item>
+        <item>@drawable/kingkrool</item>
+        <item>@drawable/isabelle</item>
+        <item>@drawable/incineroar</item>
+        <item>@drawable/piranhaplant</item>
+        <item>@drawable/joker</item>
+        <item>@drawable/hero</item>
+        <item>@drawable/banjo</item>
+        <item>@drawable/terry</item>
+        <item>@drawable/byleth</item>
+        <item>@drawable/minmin</item>
+        <item>@drawable/stevealex</item>
+        <item>@drawable/sephiroth</item>
+        <item>@drawable/pyramythra</item>
+    </drawable>
+
+    <string-array name="tips">
+        <item>Tip: Use "up-tilt" and "up-air" to juggle your opponent in the air.</item>
+        <item>Tip: Grab your opponent and simply move forward to carry them off stage. </item>
+        <item>Tip: Link\'s remote bomb can stop your opponent from grabbing the ledge.</item>
+        <item>Tip: Try to keep your charge shot at full charge so you can unleash it when you need it.</item>
+        <item>Echo: Dark Samus has more floaty jumps than Samus.</item>
+        <item>Tip: Yoshi\'s double jump is his main recovery tool, don\'t go too far off stage without it.</item>
+        <item>Tip: Kirby can use anyone\'s neutral special, so learning match-ups can come in handy.</item>
+        <item>Tip: Fox falls faster than most other characters, so watch your aerial height.</item>
+        <item>Tip: "Up–throw" into "Down–special" works on opponents around 70-85 percent, and it can KO.</item>
+        <item>Tip: Luigi\'s "Side-Special" has a small chance to misfire, which increases the range and power.</item>
+        <item>Tip: Use PK Thunder on yourself to launch yourself back to stage or deal big damage.</item>
+        <item>Tip: Captain Falcon has tons of combo potential. Training mode is useful for testing possible combo ideas.</item>
+        <item>Tip: "Down-Special" might seem useless at first, but using it directly on top of your opponent can KO them or deal big damage.</item>
+        <item>Tip: Peach\'s turnips have different properties depending on their face.</item>
+        <item>Echo: Daisy\'s hitboxes are wider, but shorter than Peach\'s.</item>
+        <item>Tip: "Side-Special" allows you to grab opponents and carry them off the stage, but be careful because Bowser will die first.</item>
+        <item>Tip: Try to keep your partner Ice Climber alive at all times, you are significantly weaker without her.</item>
+        <item>Tip: Sheik can sometime struggle to KO, but, being a fast character, she can catch opponents with her powerful "up-smash" for KOs.</item>
+        <item>Tip: Zelda\'s aerials have sweet and sour spots, so try to space yourself to hit the sweet spots.</item>
+        <item>Tip: Dr. Mario can use his "Down-Special" to help recover, remember to spam the special button when you use it to recover.</item>
+        <item>Tip: Pichu hurts itself when using electric attacks, watch your percentage.</item>
+        <item>Tip: Falco\'s laser stuns opponents, use it to trip up their approach.</item>
+        <item>Tip: Marth\'s sword is more powerful at the tip, so space yourself to always hit with the tip.</item>
+        <item>Echo: Lucina has normalized damage across her sword as opposed to Marth\'s tipper.</item>
+        <item>Tip: Throwing your boomerang and following with flame bow can stop approaches.</item>
+        <item>Tip: Ganondorf has very powerful attacks, but he is very slow. Watch for predictable habits from opponents to punish them without a need for speed.</item>
+        <item>Tip: Mewtwo\'s tail has a hit box, try not to let your opponent catch a hit on it.</item>
+        <item>Tip: Roy\'s sword is more powerful near the hilt of the blade, so try not to hit with the tip.</item>
+        <item>Echo: Chrom has normalized damage across the sword as opposed to Roy\'s sword being more powerful closer to the hilt.</item>
+        <item>Tip: After shielding an attack, if your opponent is right next to you, use "up-special" into "down-air" for a quick punish.</item>
+        <item>Tip: Meta knight has an incredible amount of jumps and multiple recovery moves, remember to mix up your recovery from time to time.</item>
+        <item>Tip: Pit\'s arrow can be controlled with the joystick.</item>
+        <item>Echo: Dark Pit has more power, but is less controllable than Pit.</item>
+        <item>Tip: "Down-special" provides invincibility and can bury/spike. Use this for recovery and reversing your opponent to disadvantage.</item>
+        <item>Tip: "Down-special" is naturally being charged, and you can tell its full when Wario is slightly flashing yellow. Releasing this does tons of damage.</item>
+        <item>Tip: Snake can use his "Down-special" right before his recovery move ends to blow himself up and get another recovery move. Just remember to not deal too much damage to yourself.</item>
+        <item>Tip: Use "neutral-air" when landing on opponents to start combos and get KOs with "up-air" or either side aerial.</item>
+        <item>Tip: Knowing how to perfectly play each pokemon can be tough, so try to have one that you will always be comfortable using.</item>
+        <item>Tip: Try to always have a banana peel in your hand or on the field. Tripping opponents with them can lead to easy KOs and combos.</item>
+        <item>Tip: Practice drawing a circle with the joystick to help improve PK Thunder recovery, or you could use grab in the air to catch the ledge.</item>
+        <item>Tip: Sonic is a dumb character you should never play Sonic because he is poorly represented.</item>
+        <item>Tip: King Dedede\'s gordos can stick to the ledge and invalidate many recoveries.</item>
+        <item>Tip: Olimar relies on his pikmin for the majority of his attacks. Always try to keep all 3 out on the field.</item>
+        <item>Tip: Lucario gains more power the higher percentage he has. This also takes effect when he has a significantly lower stock count than his opponent.</item>
+        <item>Tip: R.O.B. has a fuel gauge on his side for his recovery, so make sure not to get caught off stage while it is low.</item>
+        <item>Tip: Toon Link differs from the other Links with slower projectiles and less multi hit moves.</item>
+        <item>Tip: Wolf\'s "down-smash" can catch opponents just about to grab ledge and KO.</item>
+        <item>Tip: Villager drop his bowling ball below the stage to KO opponents recovering low.</item>
+        <item>Tip: Mega Man can move while using his pellet gun to move in and deal quick damage.</item>
+        <item>Tip: Spamming the special button while using "up-special" can make the move go higher.</item>
+        <item>Tip: Launch Luma away from you to catch opponents off guard with a smash attack from afar.</item>
+        <item>Tip: Little Mac\'s smash attacks have "armor", which causes him to take damage but no knockback, so challenging him while using a smash attack is unwise.</item>
+        <item>Tip: When using Greninja\'s counter, you can change which direction he attacks from, and using it from the top will cause him to spike his opponent down.</item>
+        <item>Tip: Mii fighters are characters you create! Create a moveset you\'re comfortable using with the brawler, swordfighter, or gunner.</item>
+        <item>Tip: Palutena has a sheild that provides some immunity during her dash attack. This is useful for challenging landing aerials.</item>
+        <item>Tip: Each fruit and item in Pac-man\'s "neutral-special" have different properties. Learning how to use each one can prove useful for new combos.</item>
+        <item>Tip: Robin\'s special attacks use spell tomes that need to be recharged after being used up. Don\'t get caught off guard when one runs out.</item>
+        <item>Tip: Shulk\'s monado arts provide instant buffs for him. Use them when you need more damage(buster), knockback(smash), defense(shield), movement(speed), or jump height(jump).</item>
+        <item>Tip: After using "up-special", Bowser Jr. can still attack with his hammer.</item>
+        <item>Tip: Duck Hunt\'s "down-special" spawns a character that fires toward the opponent. The character that spawns is random and each character has different properties.</item>
+        <item>Tip: Ryu always faces his opponent and has some other properties from Street Fighter like command inputs.</item>
+        <item>Echo: Ken\'s moves are multi hit as opposed to Ryu\'s strong single hits.</item>
+        <item>Tip: Cloud\'s limit meter makes his special attacks very powerful. Try to charge this up when you get a chance.</item>
+        <item>Tip: Corrin\'s "side-smash" has a hitbox when charging it up. Use this to deal a bit of extra damage before unleashing the big hit.</item>
+        <item>Tip: Bayonetta\'s "down-special" slows opponents down when they attack it and creates a perfect opportunity to start a combo.</item>
+        <item>Tip: Covering your opponent in ink causes them to take more damage from your attacks.</item>
+        <item>Tip: Ridley\'s "down-special" has a sweet spot that deals a ton of damage. Try to space yourself so you can hit your opponent with it, otherwise, it won\'t do much damage.</item>
+        <item>Tip: Simon can use his "forward-air" to hit the ledge and pull himself to the ledge with his whip.</item>
+        <item>Echo: Richter\'s "down-special" has aura properties opposed to Simon\'s having fire.</item>
+        <item>Tip: King K. Rool\'s belly has armor that can take hits while not stunning him and reducing damage taken, but this only activates when performing a move and it can only take so much damage before breaking.</item>
+        <item>Tip: Isabelle can throw opponents in any direction with her fishing rod and grab the ledge from far away with it.</item>
+        <item>Tip: Getting hit with "down-special" active makes Incineroar\'s next hit extra powerful. This can stack multiple hits up for even more damage.</item>
+        <item>Tip: If someone jumps on Piranha Plant\'s head while crouching, they will get bitten by Piranha Plant.</item>
+        <item>Tip: Joker\'s "down-special" charges his meter when he gets hit while it\'s active. When the meter his full, Joker summons Arsene, his persona, which strengthens all of his attacks.</item>
+        <item>Tip: Hero\'s smash attacks have a small chance to deal a critical hit and deal massive damage to opponents</item>
+        <item>Tip: Banjo and Kazooie can only use their "side-special" 5 times because it makes them invincible and deals a large amount of damage. The usage count resets every Banjo and Kazooie are KOd.</item>
+        <item>Tip: Terry has three extra special attacks. He is the only character with a "back-special" and when he gets to a critical point, he gets special input moves that are very powerful.</item>
+        <item>Tip: Byleth can cancel their "neutral-special" with the shield button, but only during the weak beginning part of the attack.</item>
+        <item>Tip: Min Min can use smash attacks with her special arm, each arm with a different function.</item>
+        <item>Tip: Steve and Alex can mine any part of the stage. Different materials use different tools and yield different materials.</item>
+        <item>Tip: Sephiroth activates his on-winged form when he is in trouble, which increases his attack power and gives him armor on his smash attacks, similar to Little Mac</item>
+        <item>Tip: Pyra and Mythra are one character and you can swap between them with "down-special." Pyra is slow but powerful, and Mythra is fast but less powerful.</item>
+    </string-array>
 </resources>
